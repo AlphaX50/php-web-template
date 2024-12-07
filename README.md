@@ -6,6 +6,8 @@ This project is a simple PHP web template that demonstrates how to create a user
 
 - ```User Registration```: Allows users to create an account with a full name, email, and password.
 - ```User Login```: Users can log in with their email and password.
+- ```User Profile``` : Users can change their bio, email, and full name.
+- ```User Settings``` : Users can change their passwords and delete their accounts.
 - ```Password Hashing```: Passwords are securely stored in the database using ```bcrypt``` hashing.
 - ```Session Management```: Once logged in, the user session is maintained until they log out.
 - ```Remember Me```: Users can opt to be remembered across sessions (using cookies).
@@ -48,7 +50,10 @@ CREATE TABLE users (
     email VARCHAR(255) NOT NULL UNIQUE,
     password VARCHAR(255) NOT NULL,
     remember_token VARCHAR(255) DEFAULT NULL,
-    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    bio TEXT DEFAULT NULL,
+    profile_picture VARCHAR(255) DEFAULT NULL,
+    role TINYINT(1) DEFAULT 0
 );
 ```
 ### Step 4: Configure the ```config.php```
@@ -98,15 +103,26 @@ try {
 
 If you encounter any issues or need assistance, feel free to reach out to me on Discord: alphax50.
 
+---
+
 ## Preview 
 
 1. ```Login.php```
 
-<center><img src="https://cdn.discordapp.com/attachments/1257408385918173197/1314693531461488771/Screenshot_2.png?ex=6754b343&is=675361c3&hm=c262770d82e5ef65287907a2dd9fdcfa734602c465ea7c0806a757b92adf847d&"/></center>
+<center><img src="https://cdn.discordapp.com/attachments/1221910095193964715/1315044213049659453/Screenshot_11.png?ex=6755f9dc&is=6754a85c&hm=34a60c8436b7aa2bd7f0bd3ab678ee38561bd0d5e98ff9b469695bbb4e133dce&"/></center>
 
 2. ```Signup.php```
-<center><img src="https://cdn.discordapp.com/attachments/1257408385918173197/1314693259930636310/Screenshot_5.png?ex=6754b302&is=67536182&hm=da92c4a1eb47a4508fe4af005cf31fc0a89c8aca0f5b07719a873935ba968665&"/></center>
+
+<center><img src="https://cdn.discordapp.com/attachments/1221910095193964715/1315044213422948393/Screenshot_15.png?ex=6755f9dc&is=6754a85c&hm=94f206141d14fa601f4f2916d32503e80e8dcb02f8dcaa84071a7de3772ac0fb&"/></center>
 
 3. ```Index.php```
+
 <center><img src="https://cdn.discordapp.com/attachments/1257408385918173197/1314693259238309940/Screenshot_4.png?ex=6754b302&is=67536182&hm=31d12e8d95fe6524b0787628c2193687093bbb633aa062f37331277dad563b39&"/></center>
 
+4. ```Profil.php```
+
+<center><img src="https://cdn.discordapp.com/attachments/1221910095193964715/1315044214064807946/Screenshot_10.png?ex=6755f9dc&is=6754a85c&hm=817c58d944c8606dedf297ad3e069088f0136821694e2fb1631affe8a13cb7d7&"/></center>
+
+5. ```Settings.php```
+
+<center><img src="https://cdn.discordapp.com/attachments/1221910095193964715/1315044219362213948/Screenshot_14.png?ex=6755f9de&is=6754a85e&hm=c78fcd4e05e1204f897f2be045bb44f430f9aae318ed2abc887cf35436a673e8&"/></center>
