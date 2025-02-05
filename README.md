@@ -108,21 +108,23 @@ If you encounter any issues or need assistance, feel free to reach out to me on 
 ## Preview 
 
 1. ```Login.php```
+   
+![Screenshot_11](https://github.com/user-attachments/assets/a04544e6-823c-4a43-93d8-acb5d0c97f2b)
 
-<center><img src="https://cdn.discordapp.com/attachments/1221910095193964715/1315044213049659453/Screenshot_11.png?ex=6755f9dc&is=6754a85c&hm=34a60c8436b7aa2bd7f0bd3ab678ee38561bd0d5e98ff9b469695bbb4e133dce&"/></center>
 
-2. ```Signup.php```
+3. ```Signup.php```
 
-<center><img src="https://cdn.discordapp.com/attachments/1221910095193964715/1315044213422948393/Screenshot_15.png?ex=6755f9dc&is=6754a85c&hm=94f206141d14fa601f4f2916d32503e80e8dcb02f8dcaa84071a7de3772ac0fb&"/></center>
+![Screenshot_15](https://github.com/user-attachments/assets/aedb3873-1301-46f6-964c-06105b99264c)
+
 
 3. ```Index.php```
 
-<center><img src="https://cdn.discordapp.com/attachments/1257408385918173197/1314693259238309940/Screenshot_4.png?ex=6754b302&is=67536182&hm=31d12e8d95fe6524b0787628c2193687093bbb633aa062f37331277dad563b39&"/></center>
+![Screenshot_4](https://github.com/user-attachments/assets/74748556-caf6-46a5-a27b-69e9ab7bf7bd)
 
 4. ```Profil.php```
 
-<center><img src="https://cdn.discordapp.com/attachments/1221910095193964715/1315044214064807946/Screenshot_10.png?ex=6755f9dc&is=6754a85c&hm=817c58d944c8606dedf297ad3e069088f0136821694e2fb1631affe8a13cb7d7&"/></center>
+![Screenshot_10](https://github.com/user-attachments/assets/e4180dfe-bcea-4fa9-954c-24786b84c9b5)
 
-5. ```Settings.php```
-
-<center><img src="https://cdn.discordapp.com/attachments/1221910095193964715/1315044219362213948/Screenshot_14.png?ex=6755f9de&is=6754a85e&hm=c78fcd4e05e1204f897f2be045bb44f430f9aae318ed2abc887cf35436a673e8&"/></center>
+6. ```Settings.php```
+   
+![Screenshot_14](https://github.com/user-attachments/assets/b5d66ad1-1b0c-4a5f-9701-57136a8dd3fd)
